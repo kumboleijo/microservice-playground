@@ -2,45 +2,45 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Spring Boot-ReviewApplication<review>",
+      "name": "Spring Boot-ProductServiceApplication<product-service>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
-      "mainClass": "com.kumboleijo.microservices.core.review.ReviewApplication",
-      "projectName": "review",
+      "mainClass": "me.kumbo.micro.productservice.ProductServiceApplication",
+      "projectName": "product-service",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     },
     {
       "type": "java",
-      "name": "Spring Boot-CompositeApplication<composite>",
+      "name": "Spring Boot-RecommendationServiceApplication<recommendation-service>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
-      "mainClass": "com.kumboleijo.microservices.core.composite.CompositeApplication",
-      "projectName": "composite",
+      "mainClass": "me.kumbo.micro.recommendationservice.RecommendationServiceApplication",
+      "projectName": "recommendation-service",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     },
     {
       "type": "java",
-      "name": "Spring Boot-ProductApplication<product>",
+      "name": "Spring Boot-ReviewServiceApplication<review-service>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
-      "mainClass": "com.kumboleijo.micorservices.core.product.ProductApplication",
-      "projectName": "product",
+      "mainClass": "me.kumbo.micro.reviewservice.ReviewServiceApplication",
+      "projectName": "review-service",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     },
     {
       "type": "java",
-      "name": "Spring Boot-RecommendationApplication<recommendation>",
+      "name": "Spring Boot-CompositeServiceApplication<composite-service>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
-      "mainClass": "com.kumboleijo.micorservices.core.recommendation.RecommendationApplication",
-      "projectName": "recommendation",
+      "mainClass": "me.kumbo.micro.compositeservice.CompositeServiceApplication",
+      "projectName": "composite-service",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
